@@ -81,3 +81,68 @@
   filter: sepia(60%) grayscale(60%);
   transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover{
+  animation: spin 2s linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate();
+    }
+
+    90% {
+        transform: rotate(275deg);
+    }
+}
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+  animation: spin-top 2s linear;
+}
+
+@keyframes spin-top {
+    0% {
+        left:10%;
+    }
+
+    50%{
+      left:50%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: spin-bottom 2s linear;
+}
+
+@keyframes spin-bottom {
+    0% {
+        right:10%;
+    }
+
+    50%{
+      right:50%;
+    }
+
+    100% {
+        right: 10%;
+    }
+}
+
+/* Esercizio 13 */
