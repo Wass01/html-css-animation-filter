@@ -51,3 +51,33 @@
 .ex-6-img:hover{
   filter: grayscale(100%);
 }
+
+/* Esercizio 7 */
+.ex-7-img{
+  transition: filter 2s;
+}
+
+.ex-7-img:hover{
+  filter: sepia(60%) grayscale(60%);
+}
+
+/* Esercizio 8 */
+.ex-8-img{
+  transition: 2s;
+}
+
+.ex-8-img:hover{
+  border-radius: 5%;
+  filter: sepia(60%) grayscale(60%);
+}
+
+/* Esercizio 9 */
+.ex-9-img{
+  transition: 2s;
+}
+
+.ex-9-img:hover{
+  border-radius: 5%;
+  filter: sepia(60%) grayscale(60%);
+  transform: scale(1.5);
+}
